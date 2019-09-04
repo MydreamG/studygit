@@ -24,7 +24,7 @@ public class FirmController {
 	
 	@RequestMapping("toadd")
 	public String toadd(Model model){
-		List<Map<String, Object>> type = firmservice.getAllType();
+		List<Map<String, Object>> 1111 = firmservice.getAllType();
 		model.addAttribute("type", type);
 		return "add";
 	}
